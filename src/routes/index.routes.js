@@ -4,6 +4,6 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get('/users', ping)
+router.get('/ping', ping)
 
 export default router
